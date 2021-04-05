@@ -1,0 +1,20 @@
+{
+  "name": "clean-cache-control",
+  "version": "1.0.0",
+  "description": "Project based in course [Typescript, TDD e Clean Architecture](https://www.youtube.com/playlist?list=PL9aKtVrF05DxIrtD3CuXGnzq8Q0IZ-t8J)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalogan/clean-cache-control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalogan/clean-cache-control/issues"
+  },
+  "homepage": "https://github.com/rafalogan/clean-cache-control#readme"
+}
