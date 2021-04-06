@@ -4,7 +4,7 @@
   "description": "Project based in course [Typescript, TDD e Clean Architecture](https://www.youtube.com/playlist?list=PL9aKtVrF05DxIrtD3CuXGnzq8Q0IZ-t8J)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/rafalogan/clean-cache-control#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
     "typescript": "^4.2.3"
   }
 }
