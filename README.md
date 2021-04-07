@@ -22,12 +22,13 @@ Project based in course [Typescript, TDD e Clean Architecture](https://www.youtu
 > ### Success Case
 1. System executes the command "Save Purchases"
 2. System creates a date to be cache
-3. System clears data from current cache
+3. [x] System clears data from current cache
 4. System writes the new data to the cache
 5. System does not return any error
 
 >## Exception - error when deleting data from Cache
-1. System return error
+1. [x] System not insert latest data on cache
+1. [x] System return error
 
 >## Exception - error when write data from Cache
 1. System return error
