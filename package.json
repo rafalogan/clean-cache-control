@@ -22,6 +22,7 @@
 		"flow:end:support": "git flow support finish",
 		"flow:rm": "git branch -D",
 		"up:branch": "BRANCH=$(git branch --show-current) && git push --set-upstream origin $BRANCH",
+		"up:commit": "git pull && git push",
 		"add:patch": "npm version patch && git push",
 		"add:minor": "npm version minor && git push",
 		"add:major": "npm version major && git push"
