@@ -3,53 +3,6 @@ Project based in course [Typescript, TDD e Clean Architecture](https://www.youtu
 
 ## Require
 
-## Requirements BDD Specs
-### Narrative 1
-
-```text
-As an online client 
-I want the system to show me my purchases
-So that I can control my expenses
-```
-
-### Scenery
-
-```text
-Given that the client has a internet connection
-When the client asks to load their purchases
-Then the system should display your purchases coming from an API 
-and replace the cache data with the current data 
-```
-
-### Narrative 2
-
-```text
-As an offline client
-I want the system to show me my latest purchases
-So I can see my expenses even without internet
-```
-
-### Scenery
-
-```text
-Given that the client has no internet connection
- And there is some data written in the cache
- And the cache data is newer than 3 days
-When the client asks to load their purchases
-Then the system should display your purchases from the cache
-
-Given that the client has no internet connection
- And there is some in the cache
- And the cache data is older than or equal to 3 days
-When the client asks to load their purchases
-Then the system should display an error message
-
-Given that the client has no internet connection
- And the cache is empty
-when the client asks to load their purchases
-then the system should display an error message
-```
-
 ## Use Cases
 > ### Success Case
 1. System executes the command "Load Purchases"
@@ -68,11 +21,16 @@ then the system should display an error message
 ## Write purchases to the cache
 > ### Success Case
 1. System executes the command "Save Purchases"
-2. System encodes data to be recorded
-3. System creates a date to be cache
-4. System clears data from current cache
-5. System writes the new data to the cache
-6. System does not return any error
+2. System creates a date to be cache
+3. System clears data from current cache
+4. System writes the new data to the cache
+5. System does not return any error
+
+>## Exception - error when deleting data from Cache
+1. System return error
+
+>## Exception - error when write data from Cache
+1. System return error
 
 ### Credits
 
