@@ -1,6 +1,6 @@
 {
   "name": "clean-cache-control",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Project based in course [Typescript, TDD e Clean Architecture](https://www.youtube.com/playlist?list=PL9aKtVrF05DxIrtD3CuXGnzq8Q0IZ-t8J)",
   "main": "index.js",
   "scripts": {
