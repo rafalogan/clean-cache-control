@@ -25,7 +25,8 @@
     "up:commit": "git pull && git push",
     "add:patch": "npm version patch && git push",
     "add:minor": "npm version minor && git push",
-    "add:major": "npm version major && git push"
+    "add:major": "npm version major && git push",
+		"git:c": "git add -A && git status && git commit -am"
   },
   "repository": {
     "type": "git",
@@ -39,8 +40,10 @@
   },
   "homepage": "https://github.com/rafalogan/clean-cache-control#readme",
   "devDependencies": {
+    "@types/faker": "^5.5.0",
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
+    "faker": "^5.5.2",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
