@@ -1,5 +1,5 @@
 import { CacheStore } from '@/data/protocols/cache';
-import { SavePurchases } from '@/domain';
+import { SavePurchases } from '@/domain/usecases';
 
 
 export default class LocalSavePurchases implements SavePurchases{
