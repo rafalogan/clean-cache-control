@@ -1,6 +1,6 @@
 {
   "name": "clean-cache-control",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Project based in course [Typescript, TDD e Clean Architecture](https://www.youtube.com/playlist?list=PL9aKtVrF05DxIrtD3CuXGnzq8Q0IZ-t8J)",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "add:patch": "npm version patch && git push",
     "add:minor": "npm version minor && git push",
     "add:major": "npm version major && git push",
-		"git:c": "git add -A && git status && git commit -am"
+    "git:c": "git add -A && git status && git commit -am"
   },
   "repository": {
     "type": "git",
